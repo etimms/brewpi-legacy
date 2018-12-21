@@ -1,4 +1,4 @@
-FROM brewpi/brewpi-raspian
+FROM brewpi/brewpi-raspbian
 
 RUN git fetch --unshallow && \
     git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*" && \
